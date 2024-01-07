@@ -36,7 +36,7 @@ namespace Retete.Pages.Members
                 return Page();
             }
 
-            //_context.Member.Add(Member);
+            _context.Member.Add(Member);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

@@ -1,10 +1,35 @@
-﻿@page
+﻿@page "/"
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Bun venit!";
 }
 
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    .text-center {
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        color: #4CAF50;
+        font-size: 2.5em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
 <div class="text-center">
-    <h1 class="display-4">Salut! Bine ai venit!</h1>
-    <img src="https://desertdecasa.ro/wp-content/uploads/2018/11/dulciurile-copilariei.jpg" alt="prajituri" />
+    <h1>Bun venit la desertul tău preferat!</h1>
+    <img src="https://i.pinimg.com/736x/76/45/15/764515d1ca83f918943b894b5c075697.jpg" alt="prăjituri" />
 </div>

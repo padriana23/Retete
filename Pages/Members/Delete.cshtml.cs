@@ -53,7 +53,7 @@ namespace Retete.Pages.Members
             if (member != null)
             {
                 Member = member;
-                //_context.Member.Remove(Member);
+                _context.Member.Remove(Member);
                 await _context.SaveChangesAsync();
             }
 
